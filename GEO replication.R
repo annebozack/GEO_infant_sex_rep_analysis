@@ -83,7 +83,7 @@ colnames(betaRefact)[1] <- 'ID'
 write.table(betaRefact, file <- 'GEO_beta_refactor.txt', sep = "\t", col.names = TRUE, row.names = FALSE)
 
 
-# run refactor in python using 6 comonents
+# run refactor in python using 6 components
 
 # cd /Users/annebozack/Documents/GEO_analysis
 
