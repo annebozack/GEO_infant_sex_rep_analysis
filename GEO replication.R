@@ -155,22 +155,6 @@ table(GEO.results.ranges$meandiff > 0)
 #   3    44 
 
 
-# regions annotated to SNOR genes
-
-GEO.results.ranges$SNOR <- NA
-for (i in 1:nrow(GEO.results.ranges)){
-	if (grepl('SNOR', GEO.results.ranges$overlapping.genes[i])) {
-		GEO.results.ranges$SNOR[i] <- 1
-	} else {
-		GEO.results.ranges$SNOR[i] <- 0
-	}
-}
-
-table(GEO.results.ranges$SNOR)
-#   0   1 
-#  16  31 
-
-
 ###############
 # DMPs: limma #
 ###############
