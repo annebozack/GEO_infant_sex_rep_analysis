@@ -17,7 +17,7 @@ library(ENmix)
 
 # set working directory
 
-path <- '/Users/annebozack/Documents/GEO_analysis'
+path <- 'GEO_analysis'
 setwd(path)
 
 
